@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
 import algoliasearch from 'algoliasearch/lite';
 
-import createInstantSearch from 'react-instantsearch-core/dist/es/core/createInstantSearch';
-import connectHits from 'react-instantsearch-core/dist/es/connectors/connectHits';
-import connectSearchBox from 'react-instantsearch-core/dist/es/connectors/connectSearchBox';
-import connectRefinementList from 'react-instantsearch-core/dist/es/connectors/connectRefinementList';
-
-// import {
-//   createInstantSearch,
-//   connectRefinementList,
-//   connectSearchBox,
-//   connectHits,
-// } from 'react-instantsearch-core';
+import {
+  createInstantSearch,
+  connectRefinementList,
+  connectSearchBox,
+  connectHits,
+} from 'react-instantsearch-core';
 
 import RefinementList from './components/RefinementList';
 import SearchBox from './components/SearchBox';
