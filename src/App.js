@@ -6,13 +6,6 @@ import connectHits from 'react-instantsearch-core/dist/es/connectors/connectHits
 import connectSearchBox from 'react-instantsearch-core/dist/es/connectors/connectSearchBox';
 import connectRefinementList from 'react-instantsearch-core/dist/es/connectors/connectRefinementList';
 
-// import {
-//   createInstantSearch,
-//   connectRefinementList,
-//   connectSearchBox,
-//   connectHits,
-// } from 'react-instantsearch-core';
-
 import RefinementList from './components/RefinementList';
 import SearchBox from './components/SearchBox';
 import Hits from './components/Hits';
