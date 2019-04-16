@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.1.1/themes/algolia-min.css"
+      integrity="sha256-nkldBwBn2NQqRL1mod7BqHsJ6cEOn6u/ln6F/lI4CFo="
+      crossorigin="anonymous"
+    />
+    <style>
+      body,
+      h1 {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+          'Segoe UI Symbol';
+      }
+
+      em {
+        background: cyan;
+        font-style: normal;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        min-height: 50px;
+        padding: 0.5rem 1rem;
+        background-image: linear-gradient(to right, #8e43e7, #00aeff);
+        color: #fff;
+        margin-bottom: 1rem;
+      }
+
+      .header a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .header-title {
+        font-size: 1.2rem;
+        font-weight: normal;
+      }
+
+      .header-title::after {
+        content: ' ▸ ';
+        padding: 0 0.5rem;
+      }
+
+      .header-subtitle {
+        font-size: 1.2rem;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem;
+      }
+
+      .search-panel {
+        display: flex;
+      }
+
+      .search-panel__filters {
+        flex: 1;
+      }
+
+      .search-panel__results {
+        flex: 3;
+      }
+
+      .ais-SearchBox {
+        margin-bottom: 2rem;
+      }
+
+      .pagination {
+        margin: 2rem auto;
+        text-align: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
