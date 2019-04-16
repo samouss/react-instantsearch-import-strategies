@@ -1,5 +1,17 @@
 # React InstantSearch import strategies
 
+To run the `App`, checkout one of the two branches and run:
+
+```sh
+yarn && yarn start
+```
+
+To build the `App`, checkout one of the two branches and run:
+
+```sh
+yarn && yarn build
+```
+
 ## With root imports
 
 - **Branch**: `with-root-imports`
@@ -15,7 +27,7 @@ import {
 } from 'react-instantsearch-core';
 ```
 
-![Treemap for root imports](./assets/treemap-root-imports.jpg)
+![Treemap for root imports](./assets/treemap-root-imports.png)
 
 ## With direct imports
 
@@ -30,4 +42,4 @@ import connectSearchBox from 'react-instantsearch-core/dist/es/connectors/connec
 import connectRefinementList from 'react-instantsearch-core/dist/es/connectors/connectRefinementList';
 ```
 
-![Treemap for root imports](./assets/treemap-direct-imports.jpg)
+![Treemap for root imports](./assets/treemap-direct-imports.png)
